@@ -27,6 +27,21 @@
   padding-right: 60px;
 }
 
+.section__title {
+  color: #FF6B00;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 100px;
+  margin-bottom: 60px;
+}
+
+.subtitle {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
 .header {
   background-color: #000000;
 }
@@ -104,12 +119,12 @@
 .section__1 {
   background-image: url(img/sec1-main.png);
   background-size: cover;
-  padding-bottom: 60px;
+  height: 100vh;
 }
 .section__1 .sec1__flex {
   display: flex;
   justify-content: space-between;
-  padding-top: 100px;
+  padding-top: 160px;
 }
 .section__1 .sec1__left h1 {
   color: white;
@@ -161,4 +176,44 @@
   100% {
     transform: rotate(0deg);
   }
+}
+
+.section__2 {
+  padding-bottom: 100px;
+}
+.section__2 .sec2__flex {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.section__2 .sec2__left {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.section__2 .sec2__right {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-top: 200px;
+}
+.section__2 .card {
+  width: 450px;
+  height: 300px;
+  background-color: #EEEEEE;
+  border-radius: 15px;
+  position: relative;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 53px;
+}
+.section__2 .card__img {
+  position: absolute;
+  left: 37px;
+  top: -50px;
+}
+.section__2 .card__p {
+  color: black;
+  width: 100%;
+  max-width: 375px;
 }/*# sourceMappingURL=index.css.map */
