@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Mandarin</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <div class="header__right">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="">Цены</a>
+                        </li>
+                        <li>
+                            <a href="">Контакты</a>
+                        </li>
+                        <li>
+                            <a class="request" href="">Отправить заявку</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <button class="burger" data-modal-btn="Mobile-menu" onclick="menuSwitch()" >
+                <span></span>
+            </button>
+            <nav class="mobile"  id="Mobile-menu">
+                <ul >
+                    <li>
+                        <a href="#subjects-educ">Услуги</a>
+                    </li>
+                    <li>
+                        <a  href="#prices-block">Цены</a>
+                    </li>
+                    <li>
+                        <a href="#about-us">Контакты</a>
+                    </li>
+                    <li>
+                        <a  href="#footer-block">Отправить заявку</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="section__1">
+        <div class="container">
+            <div class="sec1__flex">
+                <div class="sec1__left">
+                    <h1>
+                        Создаем яркий образ вашего бизнеса
+                    </h1>
+                    <p>
+                        Приумножим вашу прибыль и расширем 
+                        горизонты бизнеса
+                    </p>
+                    <a href="">Узнать про цены</a>
+                </div>
+                <div class="sec1__right">
+                    <img src="img/sec1-img.svg" alt="">
+                </div>
+            </div>
+            <img class="arc" src="img/arc.svg" alt="">
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

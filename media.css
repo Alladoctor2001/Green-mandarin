@@ -1,0 +1,80 @@
+@media(max-width:900px){
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .header__right{
+        display: none;
+    }
+    .header .burger{
+        display: block;
+        outline: none;
+        border: none;
+        position: absolute;
+        right: 30px;
+        background-color:black;
+        
+    }
+    .header .burger span{
+        height: 2px;
+        width: 27px;
+        background-color:#FF6B00;
+        display: block;
+        position: relative;
+        border-radius: 1px;
+         
+        }
+    .header .burger.active span{
+        background-color: black;
+
+    }
+   
+    .header .burger span::before{
+        content: '';
+        height: 2px;
+        width: 27px;
+        background-color:#FF6B00 ;
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: 0px;
+        border-radius: 1px;
+        transition: transform 300ms;
+
+    }
+
+    .header .burger span::after{
+        content: '';
+        height: 2px;
+        width: 27px;
+        background-color:#FF6B00  ;
+        display: block;
+        position: absolute;
+        bottom: 8px;
+        left: 0px;
+        border-radius: 1px;
+        transition: transform 300ms;
+    }
+    .header .burger.active span::before{
+        transform: rotate(-45deg) translate(7px,-5px);  
+        background-color:#FF6B00  ;
+    }
+    .header .burger.active span::after{
+        transform: rotate(45deg) translate(6px, 4px);
+        background-color:#FF6B00  ; 
+    }
+    .section8 .mySlides .desktop-img{
+        display: none;
+    }
+    .section8 .mySlides .aladdin{
+        display: block;
+        width: 400px;
+        height: 400px;
+    }
+   
+}
+@media(max-width:500px){
+    .logo img{
+        max-width: 130px;
+    }
+}
