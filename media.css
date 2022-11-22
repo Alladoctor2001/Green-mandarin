@@ -116,6 +116,15 @@
         display: none;
      
     }
+    .section__title{
+        font-size: 30px;
+    }
+    .section__2 .sec2__flex{
+        flex-direction:column ;
+    }
+    .section__2 .sec2__right{
+        margin-top: 100px;
+    }
 }
 @media(max-width:500px){
     .logo img{
@@ -130,5 +139,16 @@
     }
     .section__1 .sec1__flex{
         padding-top: 60px;
+    }
+}
+
+
+
+@media(max-width:400px){
+    .section__title{
+        font-size: 25px;
+    }
+    .subtitle{
+        font-size: 20px;
     }
 }
